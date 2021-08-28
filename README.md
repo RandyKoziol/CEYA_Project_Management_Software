@@ -43,7 +43,7 @@ Get the SQL scripts in the **Scripts** folder
 * Since we don't have a version control for our database, we will be updating the script when required. Everyone working on the project will be noticed to update the db on their local machines.
 
 
-### Databae Image
+### Databae Mode Image
 
 ![This is The Database Image](https://raw.githubusercontent.com/RandyKoziol/CEYA_Project_Management_Software/master/Assets/DatabaseModel/DB_Mode%20V1.png)
 
