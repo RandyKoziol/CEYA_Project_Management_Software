@@ -45,5 +45,5 @@ Get the SQL scripts in the **Scripts** folder
 
 ### Databae Image
 
-![This is The Database Image](Scripts\project_management_database-2021-08-26_10-39.png "Database Images")
+![This is The Database Image](https://raw.githubusercontent.com/RandyKoziol/CEYA_Project_Management_Software/master/Assets/DatabaseModel/DB_Mode%20V1.png)
 
