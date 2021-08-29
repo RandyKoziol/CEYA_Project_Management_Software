@@ -31,7 +31,7 @@ If it is your first time cloning this project to your local machine
 # Database Setup
 
 
-Get the SQL scripts in the **Scripts** folder
+Get the SQL scripts in the **`Assets/Scripts`** folder
 
 * Run the `/CreateCeyaPmgdb_Final.sql` in your local sql server. I am using [MySql WorkBench](https://dev.mysql.com/downloads/workbench/)
 > For a tutorial on how to install it check out this [link](https://www.youtube.com/watch?v=u96rVINbAUI&t=3s)
@@ -45,5 +45,5 @@ Get the SQL scripts in the **Scripts** folder
 
 ### Databae Image
 
-![This is The Database Image](Scripts\project_management_database-2021-08-26_10-39.png "Database Images")
+![This is The Database Image]([Scripts\project_management_database-2021-08-26_10-39.png](https://drive.google.com/file/d/1Ek4ayHyBuxyDn8Yu-ZLqD7Lw6QaIUYmO/view?usp=sharing) "Database Images")
 
