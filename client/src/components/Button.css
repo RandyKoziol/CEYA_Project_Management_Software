@@ -1,5 +1,6 @@
 :root{
     --primary: #3acbf7;
+
 }
 
 .btn{
@@ -9,6 +10,7 @@
     border:none;
     cursor:pointer;
 }
+
 
 .btn:hover{
     padding:8px 20px;
@@ -32,9 +34,9 @@
 }
 
 .btn--medium{
-    padding: 8px 20px;
+    padding: 13px 20px;
     border-radius: 4px;
-    font: 18px;
+    font-size: 17px;
     color:#fff;
 }
 

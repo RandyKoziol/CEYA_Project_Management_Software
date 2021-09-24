@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-responsive-carousel": "^3.2.21",
+    "react-slideshow-image": "^3.5.0"
+  }
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -29,10 +29,16 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>CEYA Studio</title>
+    <link rel="stylesheet" href="style.css">
+
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -43,5 +49,105 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+
+
+    <!-- Main Page slideshow image and radio buttons-->
+
+
+
+
+
+
+    <div class="body1">
+
+        <div class="slider">
+          <div class="slides">
+
+
+            <input type="radio" name="radio-btn" id="radio1" checked="checked">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+
+
+            <div class="slide first" >
+              <img src="images/MainPageSlideShowImg1.jpg" alt="">
+            </div>
+
+
+            <div class="slide" >
+              <img src="/images/MainPageSlideShowImg2.jpg" alt="">
+            </div>
+
+
+            <div class="slide">
+              <img src="images/MainPageSlideShowImg3.jpg" alt="">
+            </div>
+
+
+
+          <div class="navigation-auto">
+
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+
+          </div>
+
+
+
+          <div class="navigation-manual">
+
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          </div>
+
+
+
+
+          </div>
+        </div>
+
+
+        <script type="text/javascript">
+        var counter = 1;
+
+
+
+        setInterval(function(){
+
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+
+        if(counter > 3) {
+          counter = 1;
+        }
+
+      }, 3000);
+        </script>
+
+
+    <!-- Slideshow and radio button finish here -->
+
+
+    </div>
+
+
+    <div class="MainPageInfoText" >
+        <h1 id="MainPageinfoText1">A Collaborative Skills Studio</MainPageinfoText1>
+        <h5 id="MainPageinfoText2">ullamcorper malesuada proin libero nunc consequat interdum varius sit amet mattis vulputate enim nulla</MainPageinfoText2>
+        <br><button id="MainPageInfoSignup" class="btn btn--primary btn--medium">Get Started </button></br>
+
+
+    </div>
+
+
+
+</body>
+
+
+
+
+
 </html>

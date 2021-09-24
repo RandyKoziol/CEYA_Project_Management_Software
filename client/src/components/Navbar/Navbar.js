@@ -17,25 +17,30 @@ class Navbar extends Component{
         return(
             <nav className="NavbarItems">
                 <h1 className="navbar-logo">
-                    <img src="/images/ceyalogo.png" alt=""/>
+                    <img src="/images/ceyalogo.png" alt="" id="ceyalogomain"/>
                 </h1>
-                <div className="menu-icon" onClick={this.handleClicked}> 
+
+
+                <div className="menu-icon" onClick={this.handleClicked}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}>
 
                     </i>
                 </div>
+
+
                 <ul className = {this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
                         return(
                             <li key = {index}>
-                                <a className = {item.cName} href={item.url}> 
+                                <a className = {item.cName} href={item.url}>
                                 {item.title}
                                 </a>
                             </li>
                         )
                     })}
                 </ul>
-                <Button>Sign Up</Button>
+
+                   <button id="MainPageInfoSignup2" class="btn btn--primary btn--medium">Get Started </button>
             </nav>
         );
     }

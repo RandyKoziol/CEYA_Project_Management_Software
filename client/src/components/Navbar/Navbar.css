@@ -6,14 +6,16 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+
 }
 
 .navbar-logo{
     color:#fff;
     justify-self: start;
-    margin-left:20px;
+    margin-left: 0%;
     cursor:pointer;
 }
+
 
 .fa-react{
     margin-left: 0.5rem;
@@ -24,12 +26,12 @@
 .nav-menu{
     display: grid;
     grid-template-columns: repeat(5,auto);
-    grid-gap: 10px; 
+    grid-gap: 2%;
     list-style:none;
     text-align: center;
-    width: 70vw;
+    width: 77%;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 2.3%;
 }
 
 .nav-links{
@@ -37,6 +39,8 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
+
+
 
 .nav-links:hover{
     background-color: #e3e3e3;
@@ -56,9 +60,17 @@
     display:none;
 }
 
+
+
+
+
+
+
+
 @media screen and (max-width: 960px){
     .NavbarItems{
-        position:relative;
+        position:100%;
+
     }
 
     /* mobile nav menu */
@@ -95,19 +107,22 @@
 
 }
 
-/* .navbar-logo{
+ .navbar-logo{
     position:absolute;
     top:0;
+    margin-left: -12%;
     left:0;
     transform: translate(25%, 50%);
-} */
+}
+
+
 
 /* Position the buger icon */
 .menu-icon{
     display:block;
     position:absolute;
-    right:0;
-    top:0;
+    margin-right: -90%;
+    margin-top: -5%;
     transform:translate(-140%,60%);
     font-size: 1.8rem;
     cursor:pointer;
@@ -137,11 +152,10 @@ nav-links-mobile:hover{
     transition:250ms;
 }
 
-Button {
-    display: none;
-}
+#MainPageInfoSignup2 {
+   visibility: hidden;
 
 }
 
 
-
+}
